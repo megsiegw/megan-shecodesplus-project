@@ -69,25 +69,30 @@ main {
     color:  rgb(115, 5, 23);    
    }
 
+   .weather-app-temperature{
+    display: flex;
+    margin-right: 30px;
+   }
+
    .current-temperature-icon {
-    position: relative;
-    top: -8px;
-    font-size: 40px;
     margin-right: 10px;
+    width: 88px;
+    height: 88px;
+    
   }
   
   .current-temperature-value {
     font-size: 70px;
     font-weight: bold;
     color: rgb(110, 103, 105);
+    line-height: 88px;
+
   }
   
   .current-temperature-unit {
     font-size: 28px;
     color:rgb(110, 103, 105);
     position: relative;
-    top: -38px;
-    margin-right: 50px;
   }
 
    
