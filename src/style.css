@@ -50,13 +50,13 @@ main {
 .weather-app-data {
     display: flex;
     justify-content: space-between;
+    margin-left: 35px;
 }
    .weather-app-city {
     font-size: 38px;
     line-height: 48px;
     margin: 0;
    }
-
 
    .weather-app-details {
    font-size: 14px;
@@ -65,7 +65,7 @@ main {
    }
 
    .weather-app-details strong {
-    color: rgb(110, 103, 105);
+    color:  rgb(115, 5, 23);    
    }
 
    .current-temperature-icon {
@@ -76,14 +76,17 @@ main {
   }
   
   .current-temperature-value {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
+    color: rgb(110, 103, 105);
   }
   
   .current-temperature-unit {
     font-size: 28px;
+    color:rgb(110, 103, 105);
     position: relative;
     top: -38px;
+    margin-right: 50px;
   }
 
    
