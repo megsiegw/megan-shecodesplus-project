@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.weather-app {
+    background-image: url(../images/paper_background.jpg);
+    background-size: 300px;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);;
+}
+   h1 {
+    font-size: 38px;
+    color: rgb(110, 103, 105);
+   }
+
+
+   p {
+    color: rgb(110, 103, 105);
+   }
