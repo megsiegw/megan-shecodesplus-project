@@ -4,8 +4,8 @@ body {
     color: rgb(110, 103, 105);
 }
 
-a {
-    color: rgb(110, 103, 105);
+a, a:link, a:visited {
+  color: rgb(115, 5, 23);
 }
 
 .weather-app {
@@ -118,6 +118,14 @@ main {
     color: rgb(110, 103, 105);
    
 }
+
+.weather-forecast-icon {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0, auto;
+}
+
 .weather-forecast-temperatures {
 font-size: 14px;
 color: rgb(110, 103, 105)
@@ -125,6 +133,8 @@ color: rgb(110, 103, 105)
 .weather-forecast-temperatures-min {
     opacity: 0.5;
 }
+
+
    
 
    footer {
