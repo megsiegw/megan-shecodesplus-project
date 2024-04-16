@@ -50,12 +50,13 @@ main {
 .weather-app-data {
     display: flex;
     justify-content: space-between;
-    margin-left: 35px;
+    margin-left: 15px;
 }
    .weather-app-city {
     font-size: 44px;
     line-height: 48px;
     margin: 0;
+    padding-bottom: 8px;
     
    }
 
