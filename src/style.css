@@ -28,7 +28,7 @@ header {
     border: 1px dotted rgb(134, 126, 129);
     border-radius: 4px;
     font-size: 16px;
-    padding: 10px;
+    padding: 7px;
     width: 40%;
 }
 
@@ -116,6 +116,7 @@ main {
 .weather-forecast-date {
     font-size: 18px;
     color: rgb(110, 103, 105);
+   
 }
 .weather-forecast-temperatures {
 font-size: 14px;
