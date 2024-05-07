@@ -25,22 +25,37 @@ header {
 
 .search-form-input {
     background-color: rgb(255, 255, 255);
-    border: 1px dotted rgb(134, 126, 129);
-    border-radius: 4px;
+    border: 1px dotted rgb(110, 103, 105, 0.3);
+    border-radius: 5px;
     font-size: 16px;
     padding: 7px;
     width: 40%;
+    box-shadow: inset 9px 11px 14px -6px rgba(110,103,105,0.15);
+}
+.search-form-input:focus {
+  outline: none;
+  box-shadow:  9px 11px 14px -6px rgba(110,103,105,0.15);
+  border: 1px dotted rgb(110, 103, 105, 0.15);
 }
 
 .search-form-button {
-    margin-left: 5px;
-    font-size: 16px;
-    background-color:rgb(110, 103, 105);
-    color: white;
-    border: 1px solid  rgb(110, 103, 105);
-    padding: 10px;
-    line-height: 1;
-    border-radius: 4px;
+  margin-left: 5px;
+  font-size: 16px;
+  background-color:rgb(110, 103, 105, 0.8);
+  color: white;
+  border: 1px solid  rgb(110, 103, 105, 0.5);
+  padding: 10px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.search-form-button:hover {
+transition: 500ms;
+color:rgb(96, 90, 92);
+background-color: rgb(110, 103, 105, 0.4);
+border: none;
+}
+.search-form-button:focus {
+outline: none;
 }
 
 main {
